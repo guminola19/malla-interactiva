@@ -2,23 +2,163 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Malla Interactiva</title>
+  <title>Malla Medicina UCSUR - Ciclos 1 al 14</title>
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
     mermaid.initialize({ startOnLoad: true });
   </script>
 </head>
 <body>
-  <h1 style="text-align:center;">Malla Interactiva de Estudio</h1>
+  <h1 style="text-align:center;">Malla Interactiva Medicina UCSUR (Ciclos 1 al 14)</h1>
   <div class="mermaid">
     graph TD
-      A[Biología Celular] --> B[ADN]
-      B --> C[Replicación]
-      C --> D[Transcripción]
-      D --> E[Traducción]
-      A --> F[Metabolismo]
-      F --> G[Glicólisis]
-      F --> H[Ciclo de Krebs]
+
+    %% ---------------- CICLO 1 ----------------
+    subgraph Ciclo_1 [Ciclo 1]
+      C1_BCM[Biología Celular y Molecular]
+      C1_Q[Química]
+      C1_M[Matemática]
+      C1_LO[Lengua y Oratoria]
+      C1_IM[Introducción a la Medicina]
+      C1_DU[Desempeño Universitario]
+    end
+
+    %% ---------------- CICLO 2 ----------------
+    subgraph Ciclo_2 [Ciclo 2]
+      C2_MF1[Morfofisiología I]
+      C2_AG[Anatomía General]
+      C2_II[Introducción a la Investigación]
+      C2_BQ[Bioquímica]
+      C2_RG[Redacción General]
+      C2_RN[Realidad Nacional]
+    end
+
+    %% ---------------- CICLO 3 ----------------
+    subgraph Ciclo_3 [Ciclo 3]
+      C3_MF2[Morfofisiología II]
+      C3_IMN[Inmunología]
+      C3_ES[Estadística General]
+      C3_FILO[Filosofía]
+      C3_GM[Genética Médica]
+      C3_EA[Educación Ambiental]
+    end
+
+    %% ---------------- CICLO 4 ----------------
+    subgraph Ciclo_4 [Ciclo 4]
+      C4_MF3[Morfofisiología III]
+      C4_FPI[Fisiopatología I]
+      C4_DYC[Desarrollo y Crecimiento]
+      C4_IB[Infectología Básica]
+      C4_BET[Bioética]
+    end
+
+    %% ---------------- CICLO 5 ----------------
+    subgraph Ciclo_5 [Ciclo 5]
+      C5_MF4[Morfofisiología IV]
+      C5_FPII[Fisiopatología II]
+      C5_SM[Salud Mental]
+      C5_FMI[Fundamentos de Medicina Intercultural]
+      C5_ELEC1[Electivo]
+      C5_BIOEST[Bioestadística]
+    end
+
+    %% ---------------- CICLO 6 ----------------
+    subgraph Ciclo_6 [Ciclo 6]
+      C6_AP[Anatomía Patológica]
+      C6_FAR[Farmacología]
+      C6_ELEC2[Electivo]
+      C6_SEM[Semiología]
+      C6_SEMSIM[Semiología basada en Simulación]
+      C6_AD[Apoyo al Diagnóstico]
+    end
+
+    %% ---------------- CICLO 7 ----------------
+    subgraph Ciclo_7 [Ciclo 7]
+      C7_MI[Metodología de la Investigación]
+      C7_EPI[Epidemiología]
+      C7_NPS[Nutrición y Prácticas Saludables]
+      C7_SPQM[Seguridad del Paciente y Calidad]
+      C7_MI1[Medicina Interna I]
+    end
+
+    %% ---------------- CICLO 8 ----------------
+    subgraph Ciclo_8 [Ciclo 8]
+      C8_MBE[Medicina Basada en la Evidencia]
+      C8_SP[Salud Pública]
+      C8_APS[Atención Primaria en Salud]
+      C8_ELEC3[Electivo]
+      C8_MI2[Medicina Interna II]
+    end
+
+    %% ---------------- CICLO 9 ----------------
+    subgraph Ciclo_9 [Ciclo 9]
+      C9_TI1[Tesis I]
+      C9_ELEC4[Electivo]
+      C9_MI3[Medicina Interna III]
+      C9_SCI[Simulación Clínica Integrada]
+      C9_TERA[Terapéutica]
+      C9_ML[Medicina Legal]
+    end
+
+    %% ---------------- CICLO 10 ----------------
+    subgraph Ciclo_10 [Ciclo 10]
+      C10_AC1[Análisis de Casos I]
+      C10_CIR[Cirugía]
+      C10_SIMQUIR[Simulación Quirúrgica]
+      C10_CPRF[Cuidados Paliativos y Rehabilitación Física]
+      C10_ECO[Ecografía]
+    end
+
+    %% ---------------- CICLO 11 ----------------
+    subgraph Ciclo_11 [Ciclo 11]
+      C11_TI2[Tesis II]
+      C11_PED[Pediatría]
+      C11_SIMPED[Simulación Pediátrica]
+      C11_GO[Ginecología y Obstetricia]
+      C11_SGO[Simulación Gineco-Obstetra]
+    end
+
+    %% ---------------- CICLO 12 ----------------
+    subgraph Ciclo_12 [Ciclo 12]
+      C12_AC2[Análisis de Casos II]
+      C12_GS[Gerencia en Salud]
+      C12_IB[Informática Biomédica]
+      C12_PI[Pre-Internado]
+    end
+
+    %% ---------------- CICLO 13 ----------------
+    subgraph Ciclo_13 [Ciclo 13]
+      C13_TI3[Trabajo de Investigación]
+      C13_INT_CIR[Internado en Cirugía]
+      C13_INT_GO[Internado en Ginecología y Obstetricia]
+      C13_INT_MED[Internado en Medicina]
+      C13_INT_PED[Internado en Pediatría]
+    end
+
+    %% ---------------- CICLO 14 ----------------
+    subgraph Ciclo_14 [Ciclo 14]
+      C14_TI4[Trabajo de Investigación]
+      C14_INT_CIR2[Internado en Cirugía]
+      C14_INT_GO2[Internado en Ginecología y Obstetricia]
+      C14_INT_MED2[Internado en Medicina]
+      C14_INT_PED2[Internado en Pediatría]
+    end
+
+    %% RELACIONES ENTRE CICLOS
+    C1_BCM --> C2_MF1
+    C2_MF1 --> C3_MF2
+    C3_MF2 --> C4_MF3
+    C4_MF3 --> C5_MF4
+    C5_MF4 --> C6_AP
+    C6_AP --> C7_MI1
+    C7_MI1 --> C8_MI2
+    C8_MI2 --> C9_MI3
+    C9_MI3 --> C10_CIR
+    C10_CIR --> C11_PED
+    C11_PED --> C12_PI
+    C12_PI --> C13_INT_MED
+    C13_INT_MED --> C14_INT_MED2
+
   </div>
 </body>
 </html>
